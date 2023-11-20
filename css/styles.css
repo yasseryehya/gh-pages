@@ -1,0 +1,19 @@
+/* Basic CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    /* Header styles */
+}
+
+nav ul {
+    /* Navigation styles */
+}
+
+/* Add more styles for main, footer, links, etc. */
