@@ -12,3 +12,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  extra:
+  generator: false
+  favicon: img/favicon.ico
