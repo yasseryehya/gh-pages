@@ -15,5 +15,4 @@ theme:
   extra:
     generator: false
   favicon: img/favicon.ico
-  icon:
-    logo: img/favicon.ico
+  logo: img/favicon.ico
