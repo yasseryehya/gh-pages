@@ -1,45 +1,48 @@
-# Getting Started
+# Getting Started with Sphinx Service
 
-Welcome to our project! We're excited to have you here. Let's get you set up and ready to go.
+Welcome to the Sphinx service! This guide will help you get started.
 
-## Step 1: Prerequisites
+## Prerequisites
 
-Before you begin, make sure you have the following installed:
+Before you begin, make sure you have the following:
 
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - A text editor (VS Code, Sublime Text, Atom)
-- Git version control system
-- A GitHub account
+- Python installed on your system
+- pip, the Python package installer
 
-## Step 2: Clone the Repository
+## Step 1: Installation
 
-To get your own local copy of our project, clone the repository with the following command:
+To use the Sphinx service, you first need to install Sphinx. You can do this by running the following command in your terminal:
 
-```bash
-git clone https://github.com/your-username/your-repo.git
+```
+pip install sphinx
 ```
 
-## Step 3: Install Dependencies
+## Step 2: Create a New Sphinx Project
 
-Navigate into your new project directory. Install the necessary dependencies with the following command:
+After installing Sphinx, you can create a new Sphinx project by running:
 
-```bash
-cd your-repo
-npm install
+```
+sphinx-quickstart
 ```
 
-## Step 4: Run the Project
+This command will guide you through creating your project.
 
-You're all set! Now, you can start the project with the following command:
+## Step 3: Build Your Documentation
 
-```bash
-npm start
+Now you're ready to build your documentation! Navigate to your project's root directory and run:
+
+```
+make html
 ```
 
-Your application should now be running at `http://localhost:3000`.
+This command will generate your documentation in HTML format.
+
+## Step 4: View Your Documentation
+
+You can view your documentation by opening the `index.html` file in the `_build/html` directory.
 
 ## Need Help?
 
-If you run into any issues or have any questions, feel free to reach out to us at support@ourproject.com. We're here to help!
-
-Happy coding!
+If you have any questions or run into any issues, feel free to reach out to us at support@sphinx.com. We're here to help!
