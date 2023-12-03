@@ -13,7 +13,7 @@ theme:
     - content.code.annotation
     - content.code.copy
   extra:
-  generator: false
+    generator: false
   favicon: img/favicon.ico
   icon:
     logo: img/favicon.ico
