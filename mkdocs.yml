@@ -5,6 +5,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.footer
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -12,7 +13,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  extra:
-    generator: false
   favicon: img/favicon.ico
   logo: img/favicon.ico
+
+extra:
+  generator: false
