@@ -25,4 +25,4 @@ If you have any questions or run into any issues, feel free to reach out to us a
 
 
 ## Example Image
-![Screenshot](../img/docs.jpg)
+![Screenshot](../../img/docs.jpg)
